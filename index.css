@@ -1,0 +1,385 @@
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+ body { 
+        font-family: 'Courgette', cursive;
+        width: 100%;
+        height: 100%;           
+        margin:0;
+        background-color: rgb(202, 242, 255);
+    
+        }
+h1 { 
+    font-size: 40px;
+    font-weight: 700;
+    
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    margin: 0;
+
+}
+
+h2{
+    font-family: 'Courgette', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    margin: 0.3rem;
+    
+}
+
+p{  
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 1rem;
+    font-size:0.65rem ;
+    margin-right: 1rem;
+    font-family: 'Courgette';
+    background: color #808080; ;
+   
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+    font-size: 50px;
+    background-color: rgba(211, 211, 211, 0);
+    
+    
+    }
+.cabeza{
+    display: flex;
+    justify-content: center;
+}
+
+
+.imgg{
+    height: 3rem;
+    margin: 6px 5px 5px 5px;
+    border-radius: 100%;
+    width: 3rem;
+}
+
+.nav{
+    width: 77%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.in{
+   
+    text-decoration: none;
+    font-size: 0.7rem;
+    flex-direction: row-reverse;
+}
+
+
+.container-pa{
+    
+    
+    background-color:  #aac7c95c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ }
+
+ .parrafo1{
+    background-image: url(./images/laboratorio-dental-fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+     display: flex;
+     flex-direction: column;
+     height: 15rem;
+     margin-top: 65px;
+     justify-content: center;
+ }
+
+ h1 { 
+    font-size: 90px;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-shadow: 0.1em 0.1em 0.2em grey
+  }
+  
+  a{
+    animation: ease-in;
+    font-size: 25px;
+    font-family: 'Courgette', bold;
+    text-shadow: 0.1em 0.1em 0.2em grey;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(75, 74, 73);
+  }
+  
+  .cabeza{
+    display: flex;
+    justify-content: center;
+  }
+  
+    .container-f{
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      padding-top:2rem;
+      padding-bottom: 2rem;
+      display: flex;
+      flex-direction: column;
+      border-top: groove;
+      border-bottom: groove;
+      border-color: dimgrey;
+        align-items: center;
+      width: 100%;
+      
+    }
+    
+    ul, li {
+       padding: 0;
+        list-style: none;
+    }
+    
+    ul.slider{
+      position: relative;
+      width: 
+      
+      100%;
+      height: 360px;
+    }
+    
+    ul.slider li {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s;
+        
+    }
+    
+    ul.slider li img{
+      width: 100%;
+      height: 23.5rem;
+      object-fit: contain;
+      
+      
+      background-color: rgb(202, 242, 255);
+      
+    }
+    
+    ul.slider li:first-child {
+        opacity: 1; /*Mostramos el primer <li>*/
+    }
+    
+    ul.slider li:target {
+        opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    
+    .menu{
+      text-align: center;
+      margin: 20px;
+    }
+    
+    .menu li{
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .menu li a{
+      display: inline-block;
+      color: rgb(10, 0, 0);
+      text-decoration: none;
+      background-color: rgb(255, 254, 254);
+      padding: 10px;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      border-radius: 100%;
+    }
+    img{
+      border-radius: 20px;
+        width: 23%;
+    }
+    
+  
+  
+    header{
+      height: 12%;
+      width: 100%;
+  }  
+  
+
+  label{
+      margin-right: 1%;
+      font-size: 1.5rem;
+  }
+
+.formu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container {
+    width: 100%;
+    height: 45rem;
+}
+.container-a{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+input{
+    border-radius: 32px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    width: 19%;
+    height: 61%;
+    
+}
+textarea{
+    border-radius: 40px;
+    width: 20%;
+    height: 80%;
+}
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.inta{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.wath{
+    display: flex;
+    justify-content: center;
+}
+
+.cel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.instta{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.aa{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.formuli{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bot{
+    width: 11%;
+    height:25%;
+    font-size: 2rem;
+    font-family: unset;
+
+}
+
+@media  (max-width: 2560px) and (min-width: 1000px ) {
+   .imgg{
+       width: 4rem;
+       height: 4rem;
+    
+} 
+.bot{
+    width: 16%;
+    height: 10%;
+    font-size: 0.8rem;
+}
+.in{
+    font-size: 1.3rem;
+}
+.nav{
+    width: 44%;
+}
+.parrafo1{
+    height: 30rem;
+}
+h2{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.inta{
+    width: 30%;
+}
+img{
+    width: 2.5rem;
+}
+}
+
+@media (max-width: 999px) and (min-width:500px){
+    p{
+        font-size: 0.8rem;
+
+    }
+}
+
+
+@media (max-width: 999px) and (min-width:300px){
+   label{
+        font-size: 0.8rem;
+
+    }
+    .nav{
+        width: 35%;
+
+    }
+    .bot{
+        width: 16%;
+        height: 10%;
+        font-size: 0.8rem;
+    }
+    h2{
+        margin-bottom: 0;
+        font-size: 1.9rem;
+    }
+    textarea{
+        width: 9.5rem;
+    }
+    input{
+        width: 9.5rem;
+    }
+    .inta{
+        width: 47%;
+    }
+}
+
+
